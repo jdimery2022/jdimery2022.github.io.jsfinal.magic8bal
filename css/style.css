@@ -1,13 +1,9 @@
-body, html {
-    margin-top: 30px;
-    height: 100%;
-   
-    
-    
-  }
-  
-    section {
-     
+      body {
+       
+          background-color: black;
+        }
+      
+      section {
      
       width: 100%;
       height: 100vh;
@@ -15,76 +11,74 @@ body, html {
       position: absolute;
       top: 0;
       left: 0;
-      animation: rain .4s linear infinite;
-      background-image: url('/img/e18d9db98700dfb31de90ed258597a0d.jpg');
+      animation: rain 0.4s linear infinite;
+     
       
       
-      opacity: 0;
-  }
-  @keyframes rain {
-      0% {
-        background-image: url('/img/e18d9db98700dfb31de90ed258597a0d.jpg');
+          opacity: 0;
+      }
+      @keyframes rain {
+          0% {
+            background-image: url('/img/e18d9db98700dfb31de90ed258597a0d.jpg');
+            
+              opacity: 1;
+          }
+          100% {
+              background-position: 10% 100%;
+              opacity: 1;
+          }
+      }
+  
+      h1 { font-weight: 100; font-size: 2.5em;}
+      #text {
+      width: 600px;
+      margin: 0 auto;
+      margin-top: 50px;
+      border: none;
+      text-align: center;
+      font-family: "Trirong", serif;
+      font-weight: 100;
+      }
+      div.eight-ball {
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+        margin-top: -5px;
+      }
+      div.response {
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 50%;
+        height: 50%;
+        margin: 25% auto;
         
-          opacity: 1;
       }
-      100% {
-          background-position: 10% 100%;
-          opacity: 1;
+      p#numberEight {
+        font-size: 5em;
+        margin: 5% auto;
+        color: black;
       }
-  }
-  
-  
-  
-  h1 { font-weight: 100; font-size: 2.5em;}
-  #text {
-   width: 600px;
-   margin: 0 auto;
-   margin-top: 50px;
-   border: none;
-   text-align: center;
-   font-family: "Trirong", serif;
-   font-weight: 100;
-  }
-  div.eight-ball {
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    padding-bottom: 10px;
-    margin-bottom: 40px;
-    margin-top: -5px;
-  }
-  div.response {
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 50%;
-    width: 50%;
-    height: 50%;
-    margin: 25% auto;
-    
-  }
-  p#numberEight {
-    font-size: 5em;
-    margin: 5% auto;
-    color: black;
-  }
-  p#response {
-    padding: 23px;
-    color: rgb(64, 15, 242);
-    font-weight: bold;
-    font-family: arial;
-    letter-spacing: 2px;
-    font-size:14px;
-    font-family: "Sofia", sans-serif;
-  }
-  #question {
-    margin: 20px;
-    padding: 10px;
-    width: 350px;
-    font-size:18px;
-  }
-  #info {
-    font-size: 16px;
-  }
+      p#response {
+        padding: 23px;
+        color: rgb(64, 15, 242);
+        font-weight: bold;
+        font-family: arial;
+        letter-spacing: 2px;
+        font-size:14px;
+        font-family: "Sofia", sans-serif;
+      }
+      #question {
+        margin: 20px;
+        padding: 10px;
+        width: 350px;
+        font-size:18px;
+      }
+      #info {
+        font-size: 16px;
+      }
