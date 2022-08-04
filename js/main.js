@@ -18,13 +18,14 @@ const responses = ["Hazy with a 99% chance of No",
     "Yes - in 100 light years",
 ];
 
-	
+
 
 window.onload = function () {
     const numberEight = document.getElementById("numberEight");
     const response = document.getElementById("response");
     const eightBall = document.getElementById("eight-ball");
     const question = document.getElementById("question");
+
     eightBall.addEventListener("click", function () {
         if (question.value.length < 1) {
             alert('What do you want to know?');

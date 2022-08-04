@@ -9,20 +9,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong">
   <link rel="stylesheet" src href="/css/style.css">
-
 </head>
-
 <body>
-
   <section>
-    
-  
     <div id="text">
       <div class="flex">
-        <h4 style="color: white;">JavaScript Final: Magic 8 Ball</h4>
-        <p style="color: white;" id="info">Ask me anything! Then click on<br>the 8 to reveal a response.
-          </p>
-        <input type="text" id="question" />
+        <h4 style="color: white;">Magic 8 Ball</h4>
+        <br>
+        <h4 style="color: white;">Ask me anything!</h4>
+        <br>
+        <input type="text" value="Enter your question here.. ." onclick="this.value=''" id="question" />
+        <br>
+        <br>
+        <p style="color: white;" id="info">Click on the number 8 below<br> to reveal the response.</p>
         <div id="eight-ball" class="eight-ball">
           <div class="response">
             <p id="numberEight">8</p>
@@ -30,12 +29,8 @@
           </div>
         </div>
       </div>
-      
   </section>
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script defer src="./js/main.js"></script>
 </body>
-
 </html>
