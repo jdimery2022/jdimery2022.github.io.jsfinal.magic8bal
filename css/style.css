@@ -17,7 +17,7 @@
       }
       @keyframes rain {
           0% {
-            background-image: url(/img/e18d9db98700dfb31de90ed258597a0d.jpg);
+            background-image: url('/img/e18d9db98700dfb31de90ed258597a0d.jpg');
               background-position: 0 0;
               opacity: 1;
           }
