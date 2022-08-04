@@ -1,6 +1,6 @@
       p, h4 {
       color:white;
-      margin-left:-30%;
+      margin-left:-25%;
      }
      section {
 
@@ -75,11 +75,13 @@
         color: black;
       }
       p#response {
-        padding: 23px;
+        text-align: center;
+        padding-left: 50px;
+        padding-top:23px;
         color: rgb(64, 15, 242);
         font-weight: bold;
         font-family: arial;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-size:14px;
        
       }
